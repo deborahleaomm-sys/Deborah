@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deborah | Portfólio Profissional</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-content">
+      <h1>Loading Portfolio...</h1>
+      <div class="bubbles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="background-animation">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div id="bubbles"></div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <h2 class="logo"> Portfólio Deborah<span></span></h2>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#certificates">Certificados</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#vivencias">Vivências</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="tag">Portfólio Profissional</p>
+          <h1>Olá, eu sou <span>Deborah Leão</span></h1>
+          <h2>Curso Técnico em Análise e Desenvolvimento de Sistemas</h2>
+          <p>
+            Sou apaixonada por tecnologia, criatividade e inovação. Este portfólio reúne
+            minha trajetória, meus certificados e meus projetos desenvolvidos ao longo da
+            minha formação.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+            <a href="#certificates" class="btn btn-outline">Ver Certificados</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-card">
+            <div class="profile-photo">
+              <img src="fotoo.jpeg" alt="Foto de Deborah">
+            </div>
+            <div class="profile-info">
+              <h3>Deborah Leão</h3>
+              <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Sobre Mim</span>
+          <h2>Dedicação, aprendizado e tecnologia</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text card reveal">
+            <p>
+              Sou estudante do curso técnico em Análise e Desenvolvimento de Sistemas e
+              tenho grande interesse em tecnologia, desenvolvimento web e criação de soluções digitais.
+            </p>
+            <p>
+              Estou em constante evolução, buscando aprimorar meus conhecimentos por meio
+              de estudos, certificados e projetos práticos que contribuam para minha formação profissional.
+            </p>
+            <p>
+              Meu objetivo é construir uma carreira sólida na área de tecnologia, unindo
+              criatividade, lógica e inovação em cada novo desafio.
+            </p>
+          </div>
+
+          <div class="skills-box card reveal">
+            <h3>Habilidades</h3>
+            <ol class="skills-list">
+              <li><span>01</span> Desenvolvimento Web</li>
+              <li><span>02</span> Análise e Desenvolvimento de Sistemas</li>
+              <li><span>03</span> Front-end (HTML, CSS, JavaScript)</li>
+              <li><span>04</span> Criação de Projetos Práticos</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section darker">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Certificados</span>
+          <h2>Conquistas e Formação</h2>
+        </div>
+
+        <div class="certificates-scroll">
+          <div class="project-card certificado reveal" data-img="certificado1.jpeg">
+            <div class="project-image">
+              <img src="certificado1.jpeg" alt="Certificado 1">
+            </div>
+            <div class="project-content">
+              <h3>UX criativo: design de interfaces que conectam</h3>
+              <p>Este curso ensina a criar layouts para sites e aplicativos, desenvolver protótipos e aplicar acessibilidade, unindo teoria e prática do início ao fim do projeto.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+
+          <div class="project-card certificado reveal" data-img="certificado2.jpeg">
+            <div class="project-image">
+              <img src="certificado2.jpeg" alt="Certificado 2">
+            </div>
+            <div class="project-content">
+              <h3>Introdução à Cibersegurança</h3>
+              <p>Este curso apresenta o campo da cibersegurança, mostrando sua importância na proteção de dados e preparando você para uma carreira com grande demanda no futuro.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+
+          <div class="project-card certificado reveal" data-img="certificado3.jpeg">
+            <div class="project-image">
+              <img src="certificado3.jpeg" alt="Certificado 3">
+            </div>
+            <div class="project-content">
+              <h3>Fundamentos do Python 1</h3>
+              <p>Este curso ensina conceitos básicos de programação e desenvolve suas habilidades iniciais utilizando a linguagem Python.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+
+          <div class="project-card certificado reveal" data-img="certificado4.jpeg">
+            <div class="project-image">
+              <img src="certificado4.jpeg" alt="Certificado 4">
+            </div>
+            <div class="project-content">
+              <h3>Gerenciamento de Ameaças Cibernéticas</h3>
+              <p>Este curso apresenta a governança em segurança cibernética e desenvolve habilidades para identificar e gerenciar ameaças digitais.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+
+          <div class="project-card certificado reveal" data-img="certificado5.jpeg">
+            <div class="project-image">
+              <img src="certificado5.jpeg" alt="Certificado 5">
+            </div>
+            <div class="project-content">
+              <h3>Defesa de rede - ICT Senac PE</h3>
+              <p>Este curso ensina a monitorar e proteger redes e avaliar alertas de segurança, desenvolvendo habilidades importantes em cibersegurança.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+
+          <div class="project-card certificado reveal" data-img="certificado6.jpeg">
+            <div class="project-image">
+              <img src="certificado6.jpeg" alt="Certificado 6">
+            </div>
+            <div class="project-content">
+              <h3>Fundamentos do Hardware do Computador</h3>
+              <p>Este curso apresenta os fundamentos do hardware do computador, explorando os componentes de PCs, laptops e dispositivos móveis.</p>
+              <span>Ver certificado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Projetos</span>
+          <h2>Experiências práticas</h2>
+        </div>
+
+        <div class="projects-grid">
+          <a href="https://9000-firebase-studio-1756898841914.cluster-dwvm25yncracsxpd26rcd5ja3m.cloudworkstations.dev" class="project-card reveal" target="_blank">
+            <div class="project-image">
+              <img src="aflorarfoto.jpeg" alt="Projeto 1">
+            </div>
+            <div class="project-content">
+              <h3>Aflorar</h3>
+              <p>O Aflorar é um projeto vivo, a caminho do MVP e pré incubado, é um espaço dedicado ao autoconhecimento e ao cuidado emocional, ajudando você a reconhecer, entender e expressar seus sentimentos de forma leve e acolhedora.</p>
+              <span>Ver projeto</span>
+            </div>
+          </a>
+
+          <a href="https://9000-firebase-studio-1759922561578.cluster-hkcruqmgzbd2aqcdnktmz6k7ba.cloudworkstations.dev" class="project-card reveal" target="_blank">
+            <div class="project-image">
+              <img src="mediline.jpeg" alt="Projeto 2">
+            </div>
+            <div class="project-content">
+              <h3>MediLine</h3>
+              <p>O MediLine é uma plataforma digital que permite agendar consultas médicas online, visualizar horários disponíveis e receber lembretes, tornando o atendimento mais rápido e organizado.</p>
+              <span>Ver projeto</span>
+            </div>
+          </a>
+
+          <a href="https://www.figma.com/proto/y1v5BnyYgOxps2B9TLsJrt/Conex%C3%A3o-Sa%C3%BAde?node-id=17-10&p=f&t=e1NliRrXoMELy0eQ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=17%3A10" class="project-card reveal" target="_blank">
+            <div class="project-image">
+              <img src="conexaosaude.jpeg" alt="Projeto 3">
+            </div>
+            <div class="project-content">
+              <h3>Conexão Saúde</h3>
+              <p>O Conexão Saúde é um aplicativo que facilita o acesso a serviços de saúde, reunindo farmácias, médicos e informações em um só lugar. Ele permite comparar preços, falar com médicos e encontrar farmácias próximas, tornando o cuidado com a saúde mais simples e acessível.</p>
+              <span>Ver projeto</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="vivencias" class="section vivencias">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Vivências</span>
+          <h2>Momentos da minha trajetória</h2>
+        </div>
+
+        <p class="reveal">
+          Alguns momentos importantes da minha trajetória acadêmica e profissional.
+        </p>
+
+        <div class="vivencias-galeria">
+          <div class="vivencia-item reveal">
+            <img src="images/evento1.jpg" alt="Evento 1">
+            <p class="vivencia-titulo">Título do Evento 1</p>
+          </div>
+
+          <div class="vivencia-item reveal">
+            <img src="images/evento2.jpg" alt="Evento 2">
+            <p class="vivencia-titulo">Título do Evento 2</p>
+          </div>
+
+          <div class="vivencia-item reveal">
+            <img src="images/evento3.jpg" alt="Evento 3">
+            <p class="vivencia-titulo">Título do Evento 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Contato</span>
+          <h2>Vamos nos conectar?</h2>
+        </div>
+
+        <div class="contact-box reveal">
+          <p>
+            Entre em contato para oportunidades, networking ou para conhecer mais sobre meus projetos.
+          </p>
+
+          <div class="contato-container">
+            <form action="https://formsubmit.co/deborahleaomm@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="Seu nome" required>
+              <input type="email" name="email" placeholder="Seu email" required>
+              <textarea name="message" placeholder="Sua mensagem" required></textarea>
+
+              <input type="hidden" name="_subject" value="Nova mensagem do portfólio Deborah">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <div class="contato-info">
+              <a href="mailto:deborahleaomm@gmail.com" class="contato-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16v16H4z"></path>
+                  <path d="m22 6-10 7L2 6"></path>
+                </svg>
+                <span>deborahleaomm@gmail.com</span>
+              </a>
+
+              <a href="https://www.instagram.com/deborahleao_m?igsh=MmhwbGczOHc0aHBl&utm_source=qr" target="_blank" class="contato-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span>@deborahleao_m</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>©️ 2026 Deborah. Todos os direitos reservados.</p>
+  </footer>
+
+  <div id="modal-certificado" class="modal">
+    <span class="fechar">&times;</span>
+    <img class="modal-img" id="img-modal" src="" alt="Certificado ampliado">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
